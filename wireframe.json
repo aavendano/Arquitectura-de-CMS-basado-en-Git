@@ -1,0 +1,389 @@
+{
+  "version": 4,
+  "app_title": "MVP de CMS editorial basado en Git",
+  "nav": {
+    "placement": "none",
+    "items": []
+  },
+  "pages": [
+    {
+      "id": "page-1694cf45",
+      "name": "Biblioteca editorial",
+      "route": "/",
+      "item_ref": {
+        "index": 0,
+        "text": "Construir el espacio editorial conectado a un repositorio de contenido en GitHub, con una identidad visual de “mesa de edición” sobria y técnica — tipografía sans legible, tonos papel/pizarra con acentos ámbar, composición densa pero clara y un mapa visual del estado repositorio → validación → preview—, incluyendo selector de rama, estado de sincronización, búsqueda, filtros y biblioteca de documentos."
+      },
+      "blocks": [
+        {
+          "id": "nav-library",
+          "type": "sidebar",
+          "label": "Navegación principal",
+          "hint": "Biblioteca, Esquemas, Validación, Preview y Operaciones Git",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 0,
+            "text": "Construir el espacio editorial conectado a un repositorio de contenido en GitHub, con una identidad visual de “mesa de edición” sobria y técnica — tipografía sans legible, tonos papel/pizarra con acentos ámbar, composición densa pero clara y un mapa visual del estado repositorio → validación → preview—, incluyendo selector de rama, estado de sincronización, búsqueda, filtros y biblioteca de documentos."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "repo-header",
+          "type": "header",
+          "label": "Repositorio y rama",
+          "hint": "Repositorio GitHub configurable, selector de rama, último sync y acción de sincronizar",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 0,
+            "text": "Construir el espacio editorial conectado a un repositorio de contenido en GitHub, con una identidad visual de “mesa de edición” sobria y técnica — tipografía sans legible, tonos papel/pizarra con acentos ámbar, composición densa pero clara y un mapa visual del estado repositorio → validación → preview—, incluyendo selector de rama, estado de sincronización, búsqueda, filtros y biblioteca de documentos."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "editorial-flow",
+          "type": "text",
+          "label": "Flujo editorial",
+          "hint": "Mapa visual GitHub → índice editorial → validación → preview",
+          "x": 2,
+          "y": 2,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 0,
+            "text": "Construir el espacio editorial conectado a un repositorio de contenido en GitHub, con una identidad visual de “mesa de edición” sobria y técnica — tipografía sans legible, tonos papel/pizarra con acentos ámbar, composición densa pero clara y un mapa visual del estado repositorio → validación → preview—, incluyendo selector de rama, estado de sincronización, búsqueda, filtros y biblioteca de documentos."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "document-filters",
+          "type": "form",
+          "label": "Búsqueda y filtros",
+          "hint": "Buscar y filtrar por tipo, estado, locale y cambios pendientes",
+          "x": 2,
+          "y": 4,
+          "w": 10,
+          "h": 1,
+          "item_ref": {
+            "index": 0,
+            "text": "Construir el espacio editorial conectado a un repositorio de contenido en GitHub, con una identidad visual de “mesa de edición” sobria y técnica — tipografía sans legible, tonos papel/pizarra con acentos ámbar, composición densa pero clara y un mapa visual del estado repositorio → validación → preview—, incluyendo selector de rama, estado de sincronización, búsqueda, filtros y biblioteca de documentos."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "document-library",
+          "type": "table",
+          "label": "Biblioteca de documentos",
+          "hint": "Título, tipo, estado, locale, ruta, validación y última modificación",
+          "x": 2,
+          "y": 5,
+          "w": 10,
+          "h": 7,
+          "item_ref": {
+            "index": 0,
+            "text": "Construir el espacio editorial conectado a un repositorio de contenido en GitHub, con una identidad visual de “mesa de edición” sobria y técnica — tipografía sans legible, tonos papel/pizarra con acentos ámbar, composición densa pero clara y un mapa visual del estado repositorio → validación → preview—, incluyendo selector de rama, estado de sincronización, búsqueda, filtros y biblioteca de documentos."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-dba9a2a2",
+      "name": "Editor de documento",
+      "route": "/documents/[id]",
+      "item_ref": {
+        "index": 1,
+        "text": "Implementar esquemas declarativos y gestión completa de documentos autocontenidos: crear, editar mediante formularios generados por esquema, guardar borradores, duplicar, archivar y cambiar estado; incluir tipos configurables, identidad estable, metadatos, cuerpo Markdown, localización y relaciones por identificador."
+      },
+      "blocks": [
+        {
+          "id": "nav-editor",
+          "type": "sidebar",
+          "label": "Navegación principal",
+          "hint": "Biblioteca, Esquemas, Validación, Preview y Operaciones Git",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 1,
+            "text": "Implementar esquemas declarativos y gestión completa de documentos autocontenidos: crear, editar mediante formularios generados por esquema, guardar borradores, duplicar, archivar y cambiar estado; incluir tipos configurables, identidad estable, metadatos, cuerpo Markdown, localización y relaciones por identificador."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "document-header",
+          "type": "header",
+          "label": "Contexto del documento",
+          "hint": "Ruta, tipo, estado, locale y acciones de guardar, duplicar o archivar",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 1,
+            "text": "Implementar esquemas declarativos y gestión completa de documentos autocontenidos: crear, editar mediante formularios generados por esquema, guardar borradores, duplicar, archivar y cambiar estado; incluir tipos configurables, identidad estable, metadatos, cuerpo Markdown, localización y relaciones por identificador."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "schema-form",
+          "type": "form",
+          "label": "Campos por esquema",
+          "hint": "Formulario dinámico para metadatos, relaciones, localización y reglas del tipo",
+          "x": 2,
+          "y": 2,
+          "w": 4,
+          "h": 8,
+          "item_ref": {
+            "index": 1,
+            "text": "Implementar esquemas declarativos y gestión completa de documentos autocontenidos: crear, editar mediante formularios generados por esquema, guardar borradores, duplicar, archivar y cambiar estado; incluir tipos configurables, identidad estable, metadatos, cuerpo Markdown, localización y relaciones por identificador."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "markdown-editor",
+          "type": "editor",
+          "label": "Editor Markdown",
+          "hint": "Edición del cuerpo con estructura y contenido editorial",
+          "x": 6,
+          "y": 2,
+          "w": 6,
+          "h": 8,
+          "item_ref": {
+            "index": 1,
+            "text": "Implementar esquemas declarativos y gestión completa de documentos autocontenidos: crear, editar mediante formularios generados por esquema, guardar borradores, duplicar, archivar y cambiar estado; incluir tipos configurables, identidad estable, metadatos, cuerpo Markdown, localización y relaciones por identificador."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "edit-summary",
+          "type": "text",
+          "label": "Resumen de cambios",
+          "hint": "Indicador de borrador, campos modificados y resultado de guardado",
+          "x": 2,
+          "y": 10,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 1,
+            "text": "Implementar esquemas declarativos y gestión completa de documentos autocontenidos: crear, editar mediante formularios generados por esquema, guardar borradores, duplicar, archivar y cambiar estado; incluir tipos configurables, identidad estable, metadatos, cuerpo Markdown, localización y relaciones por identificador."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-52b7de61",
+      "name": "Validación y preview",
+      "route": "/preview/[id]",
+      "item_ref": {
+        "index": 2,
+        "text": "Añadir validación estructural, editorial y referencial, workflow draft/review/approved/published/archived y una vista de preview que distinga contenido almacenado, validado y publicado, bloqueando el avance cuando existan errores publicables."
+      },
+      "blocks": [
+        {
+          "id": "nav-preview",
+          "type": "sidebar",
+          "label": "Navegación principal",
+          "hint": "Biblioteca, Esquemas, Validación, Preview y Operaciones Git",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 2,
+            "text": "Añadir validación estructural, editorial y referencial, workflow draft/review/approved/published/archived y una vista de preview que distinga contenido almacenado, validado y publicado, bloqueando el avance cuando existan errores publicables."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "workflow-header",
+          "type": "header",
+          "label": "Workflow editorial",
+          "hint": "Estado actual, transición permitida y bloqueo por validación",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 2,
+            "text": "Añadir validación estructural, editorial y referencial, workflow draft/review/approved/published/archived y una vista de preview que distinga contenido almacenado, validado y publicado, bloqueando el avance cuando existan errores publicables."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "validation-panel",
+          "type": "text",
+          "label": "Resultados de validación",
+          "hint": "Errores estructurales, editoriales y referenciales con ubicación y severidad",
+          "x": 2,
+          "y": 2,
+          "w": 4,
+          "h": 8,
+          "item_ref": {
+            "index": 2,
+            "text": "Añadir validación estructural, editorial y referencial, workflow draft/review/approved/published/archived y una vista de preview que distinga contenido almacenado, validado y publicado, bloqueando el avance cuando existan errores publicables."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "document-preview",
+          "type": "text",
+          "label": "Preview del documento",
+          "hint": "Render del contenido validado con selector de vista almacenada, validada o publicada",
+          "x": 6,
+          "y": 2,
+          "w": 6,
+          "h": 8,
+          "item_ref": {
+            "index": 2,
+            "text": "Añadir validación estructural, editorial y referencial, workflow draft/review/approved/published/archived y una vista de preview que distinga contenido almacenado, validado y publicado, bloqueando el avance cuando existan errores publicables."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "workflow-actions",
+          "type": "text",
+          "label": "Acciones de workflow",
+          "hint": "Enviar a revisión, aprobar o marcar como publicado según reglas",
+          "x": 2,
+          "y": 10,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 2,
+            "text": "Añadir validación estructural, editorial y referencial, workflow draft/review/approved/published/archived y una vista de preview que distinga contenido almacenado, validado y publicado, bloqueando el avance cuando existan errores publicables."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-61de4d8a",
+      "name": "Operaciones Git",
+      "route": "/git",
+      "item_ref": {
+        "index": 3,
+        "text": "Implementar el centro de operaciones Git con cambios pendientes, diff por documento, commits trazables, pull/push, detección de cambios externos y conflictos, historial por documento y restauración controlada de versiones."
+      },
+      "blocks": [
+        {
+          "id": "nav-git",
+          "type": "sidebar",
+          "label": "Navegación principal",
+          "hint": "Biblioteca, Esquemas, Validación, Preview y Operaciones Git",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 3,
+            "text": "Implementar el centro de operaciones Git con cambios pendientes, diff por documento, commits trazables, pull/push, detección de cambios externos y conflictos, historial por documento y restauración controlada de versiones."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "git-header",
+          "type": "header",
+          "label": "Estado del repositorio",
+          "hint": "Rama, remoto, commit actual, divergencia y sincronización",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 3,
+            "text": "Implementar el centro de operaciones Git con cambios pendientes, diff por documento, commits trazables, pull/push, detección de cambios externos y conflictos, historial por documento y restauración controlada de versiones."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "pending-changes",
+          "type": "list",
+          "label": "Cambios pendientes",
+          "hint": "Archivos añadidos, modificados, movidos o eliminados",
+          "x": 2,
+          "y": 2,
+          "w": 4,
+          "h": 5,
+          "item_ref": {
+            "index": 3,
+            "text": "Implementar el centro de operaciones Git con cambios pendientes, diff por documento, commits trazables, pull/push, detección de cambios externos y conflictos, historial por documento y restauración controlada de versiones."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "document-diff",
+          "type": "text",
+          "label": "Comparación de versiones",
+          "hint": "Diff legible del documento seleccionado",
+          "x": 6,
+          "y": 2,
+          "w": 6,
+          "h": 5,
+          "item_ref": {
+            "index": 3,
+            "text": "Implementar el centro de operaciones Git con cambios pendientes, diff por documento, commits trazables, pull/push, detección de cambios externos y conflictos, historial por documento y restauración controlada de versiones."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "commit-form",
+          "type": "form",
+          "label": "Commit y sincronización",
+          "hint": "Resumen editorial, autor operativo y acciones controladas de pull, commit y push",
+          "x": 2,
+          "y": 7,
+          "w": 4,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Implementar el centro de operaciones Git con cambios pendientes, diff por documento, commits trazables, pull/push, detección de cambios externos y conflictos, historial por documento y restauración controlada de versiones."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "history-timeline",
+          "type": "timeline",
+          "label": "Historial y restauración",
+          "hint": "Versiones del documento, autor, fecha y restauración controlada",
+          "x": 6,
+          "y": 7,
+          "w": 6,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Implementar el centro de operaciones Git con cambios pendientes, diff por documento, commits trazables, pull/push, detección de cambios externos y conflictos, historial por documento y restauración controlada de versiones."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "conflict-alert",
+          "type": "text",
+          "label": "Conflictos y cambios externos",
+          "hint": "Detección, explicación y resolución sin sobrescritura silenciosa",
+          "x": 2,
+          "y": 11,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 3,
+            "text": "Implementar el centro de operaciones Git con cambios pendientes, diff por documento, commits trazables, pull/push, detección de cambios externos y conflictos, historial por documento y restauración controlada de versiones."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    }
+  ],
+  "attached_to_plan": true
+}
